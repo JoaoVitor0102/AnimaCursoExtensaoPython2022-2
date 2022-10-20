@@ -1,9 +1,16 @@
 # Meu primeiro projeto Python!!
 # comentario 
 # print() = comando de saida
+print ("Hello world!")
 
 ''' 
 comentario em bloco
 '''
 
-print ("Hello world!")
+# Quando quiser guardar uma String!(frase alphanumerico)
+nome = "João Vitor"
+# Quando quiser guardar um número inteiro
+idade = 19
+
+# Exibir variável nome e idade
+print(nome,idade)
