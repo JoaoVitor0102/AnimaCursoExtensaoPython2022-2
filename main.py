@@ -14,3 +14,7 @@ idade = 19
 
 # Exibir variável nome e idade
 print(nome,idade)
+
+#Quando quiser exibir a frase "Minha idade é" com a variavel idade
+
+print("Minha idade é "+str(idade))
