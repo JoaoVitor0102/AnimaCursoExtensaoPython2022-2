@@ -13,7 +13,7 @@ nome = "João Vitor"
 idade = 19
 
 # Exibir variável nome e idade
-print(nome,idade) 
+print(nome,idade)
 
 #Quando quiser exibir a frase "Minha idade é" com a variavel idade
 print("Minha idade é "+str(idade) + "\n")
@@ -22,7 +22,7 @@ print("Minha idade é "+str(idade) + "\n")
 print(f"Minha idade é {idade} anos" "\n")
 
 # Metodo 3:
-print("Minha idade é {}".format(idade))
+print("Minha idade é {}".format(idade) + "\n")
 
 #Quando quiser exibir "Meu nome é ... e tenho ... anos" trocando pelas variaveis nome e idade
-print(nome )
+print(nome)
