@@ -25,4 +25,7 @@ print(f"Minha idade é {idade} anos" "\n")
 print("Minha idade é {}".format(idade) + "\n")
 
 #Quando quiser exibir "Meu nome é ... e tenho ... anos" trocando pelas variaveis nome e idade
-print(nome)
+print("meu nome é {} e tenho {} anos" .format (nome, idade))
+
+
+
