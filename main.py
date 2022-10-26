@@ -14,3 +14,9 @@ print (f"sua idade é {idade} anos")
 dobro = idade * 2
 
 print (f"o dobro da sua idade é {dobro} anos")
+
+#Estrutura condicional - o famoso "SE" (if)
+#Se a pessoa for maior de idade, pode dirigir
+
+if (idade) >= 18:
+  print ("você é adulto")
