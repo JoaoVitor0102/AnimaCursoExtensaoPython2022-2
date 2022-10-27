@@ -20,3 +20,17 @@ print (f"o dobro da sua idade é {dobro} anos")
 
 if (idade) >= 18:
   print ("você é adulto")
+else:
+  print ("você é criança")
+
+
+
+sexo = input ("qual seu sexo?,M = masculino/ F= feminino:")
+
+
+print (f"o seu sexo é {sexo}")
+
+if (idade) >= 18 and (sexo) == "M":
+  print("Aliste ao exército")
+else:
+  print("você é muié")
