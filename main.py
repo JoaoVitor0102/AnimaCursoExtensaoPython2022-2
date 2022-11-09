@@ -1,13 +1,17 @@
-#pede o número do aluno e sua nota (0 a 10) e se ele tirou nota 10, mostra "Você passou"
+#exemplo de laço
 
-nome = input("informe seu nome:")
-nota = float(input("digite sua nota"))
+#Se eu quisesse exibir números de 1 a 10?
+print("aqui de maneira rústica:")
+print("1")
+print("2")
+print("3")
+print("4")
+print("5...")
+print("aqui é do jeito certo:")
+#Loop
 
-if(nota == 10):
-  print(f"parabéns {nome}, você passou com gosto")
+numero = 1
+print(numero)
+numero = numero + 1
+print (numero)
 
-elif (nota >= 6 and nota <= 10):
-  print("foi bom, mas podia ser melhor")
-
-else:
-  print("Não tirou 10")
